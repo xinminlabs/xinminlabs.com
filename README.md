@@ -3,5 +3,5 @@
 ## Deploy
 
 ```
-mina deploy
+bundle exec middleman deploy
 ```
