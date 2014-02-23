@@ -1,0 +1,39 @@
+.navbar {
+  margin-bottom: 0;
+}
+.intro {
+  padding: 20px 0;
+  line-height: 1.25;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
+  background-color: #fafafa;
+}
+.project {
+  text-align: center;
+  padding: 20px 0;
+  color: #222;
+}
+.project h3 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.project p {
+  width: 60%;
+  font-size: 1.125em;
+  line-height: 1.875em;
+  margin: auto;
+}
+.hire-us-btn {
+  font-weight: bold;
+  padding: 20px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.hire-us-btn span {
+  font-weight: normal;
+  display: block;
+}
