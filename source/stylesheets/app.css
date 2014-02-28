@@ -37,6 +37,9 @@
   line-height: 1.875em;
   margin: auto;
 }
+.project .screenshot img {
+  width: 100%;
+}
 .hire-us-btn {
   font-weight: bold;
   padding: 20px 50px;
@@ -48,4 +51,9 @@
 .hire-us-btn span {
   font-weight: normal;
   display: block;
+}
+footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
 }
