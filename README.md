@@ -1,5 +1,11 @@
 # xinminlabs.com
 
+## Develop
+
+```
+bundle exec middleman server
+```
+
 ## Deploy
 
 ```
