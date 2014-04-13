@@ -1,0 +1,15 @@
+header
+  nav.navbar.navbar-default role="navigation"
+    .container
+      .navbar-header
+        button.navbar-toggle type="button" data-toggle="collapse" data-target="#bs-navbar-collapse-1"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        = link_to 'Xinmin Labs', '/', class: 'navbar-brand'
+
+      .collapse.navbar-collapse#bs-navbar-collapse-1
+        ul.nav.navbar-nav.navbar-right
+          li= link_to 'Our Work', '/work'
+          li= link_to 'Contact Us', '/contact'
