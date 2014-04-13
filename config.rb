@@ -38,6 +38,8 @@
 # Reload the browser automatically whenever files change
 activate :livereload
 
+activate :imageoptim
+
 activate :directory_indexes
 
 activate :deploy do |deploy|
