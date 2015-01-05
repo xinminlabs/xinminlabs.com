@@ -4,7 +4,7 @@ source 'http://rubygems.org'
 
 gem "middleman"
 gem "middleman-livereload"
-gem "middleman-imageoptim"
+gem "middleman-imageoptim", github: 'plasticine/middleman-imageoptim'
 gem "middleman-deploy"
 
 gem "slim"
