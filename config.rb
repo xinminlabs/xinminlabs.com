@@ -47,7 +47,7 @@ activate :deploy do |deploy|
   deploy.method = :sftp
   deploy.user = "deploy"
   deploy.host = "xinminlabs.com"
-  deploy.port = 22
+  deploy.port = "12222"
   deploy.path = "/home/deploy/sites/xinminlabs.com/production/current"
 end
 
