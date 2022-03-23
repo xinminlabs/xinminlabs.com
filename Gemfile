@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
-gem "middleman", '3.4.1'
+gem "middleman"
 gem "middleman-livereload"
-gem "middleman-imageoptim"
-gem "middleman-deploy"
+gem 'middleman-imageoptim', :git => 'https://github.com/alexsanderson/middleman-imageoptim', :branch => 'master'
 
 gem "slim"

@@ -42,15 +42,6 @@ activate :imageoptim
 
 activate :directory_indexes
 
-activate :deploy do |deploy|
-  deploy.build_before = true # default: false
-  deploy.method = :sftp
-  deploy.user = "deploy"
-  deploy.host = "xinminlabs.com"
-  deploy.port = "12222"
-  deploy.path = "/home/deploy/sites/xinminlabs.com/production/current"
-end
-
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
