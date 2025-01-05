@@ -1,5 +1,5 @@
 # setup our builder
-FROM ruby:2.6-alpine AS middleman-builder
+FROM ruby:3.1.6-alpine AS middleman-builder
 RUN apk update && apk add build-base git nodejs
 WORKDIR /app
 
